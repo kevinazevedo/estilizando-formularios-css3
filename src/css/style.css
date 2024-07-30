@@ -1,43 +1,61 @@
 body {
-    font-family: "Consolas", "Arial", "Helvetica", sans-serif;
+    font-family: "Consolas", "Helvetica", sans-serif;
+    background: #643d87 url(../img/fundo.jpg) no-repeat top center;
 }
 
-fieldset {
-    padding: 1em;
-    margin: 1em 0;
-    border: 1px solid #ccc;
-    background: #f8f8f8;
+#container {
+    width: 400px;
+    height: 244px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 115px;
+    text-align: center;
 }
 
-legend {
-    border: 1px solid rgb(59, 144, 184);
-    padding: 0.3em;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-label {
-    display: block;
-    cursor: pointer;
-}
-
-div {
-    padding: 0.2em;
+#container img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 25px;
 }
 
 input {
-    width: 20em;
+    height: 28px;
+    width: 62%;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 35px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 8px;
+    background-size: 15px;
 }
 
-textarea {
-    width: 20em;
-    height: 5em;
+input.email {
+    background-image: url(../img/icone-usuario.png);
 }
 
-input.radio, input.checkbox, input.submit {
-    width: auto;
+input.senha {
+    background-image: url(../img/icone-cadeado.png);
 }
 
-.radio {
-    margin-right: 0.6em;
+input.submit {
+    height: 42px;
+    width: 46%;
+    color: #fff;
+    background-color: #f79300;
+    border: 2px solid #ac7716;
+    padding: 5px 20px;
+
+    background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.03em;
 }

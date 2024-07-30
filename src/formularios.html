@@ -9,57 +9,28 @@
     </head>
 
     <body>
-        <h2>Estilizando Formulários</h2>
-
-        <form>
-
-            <fieldset>
-                <legend>Detalhes de Contato</legend>
-
-                <div>
-                    <label for="nome">Nome:</label>
-                     <input type="text" name="nome" id="nome">
-                </div>
-
-                <div>  
-                    <label for="email">Email:</label>
-                    <input type="text" name="email" id="email">
-                </div>
-
-                <div>  
-                    <label for="url">URL:</label>
-                    <input type="text" name="url" id="url">
-                </div>
-
-            </fieldset>
+       
+        <div id="container">
             
-            <fieldset>
-                <legend>Comentários</legend>
-                
-                <div>
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea name="mensagem" id="mensagem"></textarea>
-                </div>
-            </fieldset>
+            <img src="img/perfil.png">
 
-            <fieldset>
-                <legend>Lembrar de mim</legend>
-                
+            <form>
+                 
                 <div>
-                    <label>
-                        <input class="radio" type="radio" name="lembrar" id="sim">Sim
-                    </label>
-                </div>
+                    <input class="email" type="text" name="email" id="email" placeholder="Digite seu email">
+                </div>    
 
                 <div>
-                    <label>
-                        <input class="radio" type="radio" name="lembrar" id="nao">Não
-                    </label>
-                </div>
+                    <input class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                </div> 
 
-            </fieldset>
+                <div>
+                    <input class="submit" type="submit" value="Entrar">
+                </div> 
 
-        </form>
+            </form>
+        
+        </div>
 
     </body>
 
